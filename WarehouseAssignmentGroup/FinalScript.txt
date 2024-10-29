@@ -1,0 +1,228 @@
+Script started on 2024-10-29 19:53:57+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="44"]
+[0;32m@abby-973 [0m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ j[Kexitjava UserInterface [6@c UserInterface.java[C
+[0;32m@abby-973 [0m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ javac UserInterface.java exit[Kjava UserInterface 
+Would you like to access the saved data? (yes/no): (Y or y) for yes or anything else for no
+n
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+1
+Please enter the client's first name:
+C1
+Please enter the client's last name:
+C1LastName
+Please enter the clients email:
+C1@gmail.com
+Please enter the clients ID:
+1
+Please enter the client's address:
+123 23t rd Rd Avon, MN
+Please enter the client's phone number:
+1234567890
+Client{First Name:'C1', Last Name:'C1LastName', Email:'C1@gmail.com', Client ID:'C1', Address:'123 23rd Rd Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+Please enter the command:14 for help
+1
+Please enter the client's first name:
+C2
+Please enter the client's last name:
+C2LN
+Please enter the clients email:
+C2@gmail.com
+Please enter the clients ID:
+2
+Please enter the client's address:
+123 abc lane Sartellm , MN
+Please enter the client's phone number:
+0987654321
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@gmail.com', Client ID:'C2', Address:'123 abc lane Sartell, MN', Phone Number:'0987654321', Balance:'0.0'}
+Please enter the command:14 for help
+1
+Please enter the client's first name:
+C3
+Please enter the client's last name:
+C3LN
+Please enter the clients email:
+C3@gmail.com
+Please enter the clients ID:
+3
+Please enter the client's address:
+12th Va  Ave St.Cloud, MN
+Please enter the client's phone number:
+3212938877
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'12th Ave St.Cloud, MN', Phone Number:'3212938877', Balance:'0.0'}
+Please enter the command:14 for help
+1
+Please enter the client's first name:
+C3 4
+Please enter the client's last name:
+C4LN
+Please enter the clients email:
+C4@gmail.com
+Please enter the clients ID:
+4
+Please enter the client's address:
+213 39th Ave Minnetonka  , MN
+Please enter the client's phone number:
+2938473838
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'213 39th Ave Minnetonka, MN', Phone Number:'2938473838', Balance:'0.0'}
+Please enter the command:14 for help
+1
+Please enter the client's first name:
+C5
+Please enter the client's last name:
+C% 5LN
+Please enter the clients email:
+C4 5@gmail.com
+Please enter the clients ID:
+5
+Please enter the client's address:
+493t  8th a LN n Avon, MN
+Please enter the client's phone number:
+4847578844
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'493 8th Ln Avon, MN', Phone Number:'4847578844', Balance:'0.0'}
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+10
+Client{First Name:'C1', Last Name:'C1LastName', Email:'C1@gmail.com', Client ID:'C1', Address:'123 23rd Rd Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@gmail.com', Client ID:'C2', Address:'123 abc lane Sartell, MN', Phone Number:'0987654321', Balance:'0.0'}
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'12th Ave St.Cloud, MN', Phone Number:'3212938877', Balance:'0.0'}
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'213 39th Ave Minnetonka, MN', Phone Number:'2938473838', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'493 8th Ln Avon, MN', Phone Number:'4847578844', Balance:'0.0'}
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+2
+Please enter the product's name:
+P1
+Please enter the product's price:
+2.  10
+Please enter the prodcut's quantity:
+25
+Product{Product ID: 'P1', Name: 'P1', Sale Price: $10.00, Quantity in Stock: 25}
+Would you like to add another product? (Y or y) for yes or anything else for no
+y
+Please enter the product's name:
+P2
+Please enter the product's price:
+5
+Please enter the prodcut's quantity:
+50
+Product{Product ID: 'P2', Name: 'P2', Sale Price: $5.00, Quantity in Stock: 50}
+Would you like to add another product? (Y or y) for yes or anything else for no
+y
+Please enter the product's name:
+P3
+Please enter the product's price:
+3
+Please enter the prodcut's quantity:
+10
+Product{Product ID: 'P3', Name: 'P3', Sale Price: $3.00, Quantity in Stock: 10}
+Would you like to add another product? (Y or y) for yes or anything else for no
+y
+Please enter the product's name:
+P4
+Please enter the product's price:
+4
+Please enter the prodcut's quantity:
+75
+Product{Product ID: 'P4', Name: 'P4', Sale Price: $4.00, Quantity in Stock: 75}
+Would you like to add another product? (Y or y) for yes or anything else for no
+y
+Please enter the product's name:
+P5
+Please enter the product's price:
+15
+Please enter the prodcut's quantity:
+30
+Product{Product ID: 'P5', Name: 'P5', Sale Price: $15.00, Quantity in Stock: 30}
+Would you like to add another product? (Y or y) for yes or anything else for no
+n
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+11
+Product{Product ID: 'P1', Name: 'P1', Sale Price: $10.00, Quantity in Stock: 25}
+Product{Product ID: 'P2', Name: 'P2', Sale Price: $5.00, Quantity in Stock: 50}
+Product{Product ID: 'P3', Name: 'P3', Sale Price: $3.00, Quantity in Stock: 10}
+Product{Product ID: 'P4', Name: 'P4', Sale Price: $4.00, Quantity in Stock: 75}
+Product{Product ID: 'P5', Name: 'P5', Sale Price: $15.00, Quantity in Stock: 30}
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+1
+Please enter the product's Id:
+P1
+Exception in thread "main" java.lang.NumberFormatException: For input string: "P1"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at UserInterface.addToWishlist(UserInterface.java:137)
+	at UserInterface.process(UserInterface.java:253)
+	at UserInterface.main(UserInterface.java:286)
+[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-10-29 20:04:38+00:00 [COMMAND_EXIT_CODE="1"]
