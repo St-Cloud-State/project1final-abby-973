@@ -15,6 +15,7 @@ public class Product implements Serializable{
         this.name = name;
         this.salePrice = salePrice;
         this.quantityInStock = initialQuantity;
+        this.waitList = new WaitList(ProductIDServer.getInstance().getProductID());
     }
 
     public void updateStock(int quantity) {

@@ -26,6 +26,7 @@ public class Client implements Serializable{
         this.Address = Address;
         this.PhoneNumber = PhoneNumber;
         this.Balance = 0.00;
+        this.WishList = new WishList(ClientID);
     }
 
     // Get functions for the parameters

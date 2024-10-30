@@ -46,9 +46,7 @@ public static Warehouse instance() {
   public WishListItem addToWishlist(int cID, int pID, int initialQuantity)
   {
     WishList userWishlist = clientList.find(cID).getWishList();
-    System.out.println("Another Tester");
     WishListItem item = new WishListItem(productList.find(pID), initialQuantity); 
-    System.out.println("Just need to add");
     userWishlist.add(item);
     return item;
   }

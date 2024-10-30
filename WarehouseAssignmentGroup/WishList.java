@@ -1,9 +1,10 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
+import java.util.LinkedList;
 
 // Updated to be a Linked List - Abby 
-public class WishList {
+public class WishList implements Serializable {
     private String clientID; // Stores the client ID associated with this wishlist.
     //Updated to allow for a quantity to be addded
     private List<WishListItem> items = new LinkedList<WishListItem>();

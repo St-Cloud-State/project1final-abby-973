@@ -1,5 +1,5 @@
-Script started on 2024-10-29 19:53:57+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="44"]
-[0;32m@abby-973 [0m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ j[Kexitjava UserInterface [6@c UserInterface.java[C
+Script started on 2024-10-30 15:14:59+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="39"]
+[0;32m@abby-973 [0m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ jav[K[K[Kexitjava UserInterface [6@c UserInterface.java[C
 [0;32m@abby-973 [0m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ javac UserInterface.java exit[Kjava UserInterface 
 Would you like to access the saved data? (yes/no): (Y or y) for yes or anything else for no
 n
@@ -24,16 +24,14 @@ Please enter the command:14 for help
 Please enter the client's first name:
 C1
 Please enter the client's last name:
-C1LastName
+C!LN   1LN
 Please enter the clients email:
 C1@gmail.com
-Please enter the clients ID:
-1
 Please enter the client's address:
-123 23t rd Rd Avon, MN
+123 abc Rd Avon, MN
 Please enter the client's phone number:
-1234567890
-Client{First Name:'C1', Last Name:'C1LastName', Email:'C1@gmail.com', Client ID:'C1', Address:'123 23rd Rd Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+2 1234567890
+Client{First Name:'C1', Last Name:'C1LN', Email:'C1@gmail.com', Client ID:'C1', Address:'123 abc Rd Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
 Please enter the command:14 for help
 1
 Please enter the client's first name:
@@ -41,84 +39,51 @@ C2
 Please enter the client's last name:
 C2LN
 Please enter the clients email:
-C2@gmail.com
-Please enter the clients ID:
-2
+C@@  2@outlook.com
 Please enter the client's address:
-123 abc lane Sartellm , MN
+321 4th St av  Avon, MN
 Please enter the client's phone number:
-0987654321
-Client{First Name:'C2', Last Name:'C2LN', Email:'C2@gmail.com', Client ID:'C2', Address:'123 abc lane Sartell, MN', Phone Number:'0987654321', Balance:'0.0'}
+3 0987654321
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@outlook.com', Client ID:'C2', Address:'321 4th St Avon, MN', Phone Number:'0987654321', Balance:'0.0'}
 Please enter the command:14 for help
 1
 Please enter the client's first name:
-C3
+C2 3
 Please enter the client's last name:
 C3LN
 Please enter the clients email:
-C3@gmail.com
-Please enter the clients ID:
-3
+C2 3@gmail.com
 Please enter the client's address:
-12th Va  Ave St.Cloud, MN
+387 5th Ave St.Cloud. , MN
 Please enter the client's phone number:
-3212938877
-Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'12th Ave St.Cloud, MN', Phone Number:'3212938877', Balance:'0.0'}
+3238578899
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'387 5th Ave St.Cloud, MN', Phone Number:'3238578899', Balance:'0.0'}
 Please enter the command:14 for help
 1
 Please enter the client's first name:
-C3 4
+C4
 Please enter the client's last name:
 C4LN
 Please enter the clients email:
 C4@gmail.com
-Please enter the clients ID:
-4
 Please enter the client's address:
-213 39th Ave Minnetonka  , MN
+129 6th Av  Hy  HWY,  Avon, MN
 Please enter the client's phone number:
-2938473838
-Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'213 39th Ave Minnetonka, MN', Phone Number:'2938473838', Balance:'0.0'}
+3284954789
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'129 6th HWY Avon, MN', Phone Number:'3284954789', Balance:'0.0'}
 Please enter the command:14 for help
 1
 Please enter the client's first name:
 C5
 Please enter the client's last name:
-C% 5LN
+C5LN
 Please enter the clients email:
-C4 5@gmail.com
-Please enter the clients ID:
-5
+Ct 5@gmail.com
 Please enter the client's address:
-493t  8th a LN n Avon, MN
+234 4th Ave Minneapolis, MN
 Please enter the client's phone number:
-4847578844
-Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'493 8th Ln Avon, MN', Phone Number:'4847578844', Balance:'0.0'}
-Please enter the command:14 for help
-14
-Enter a number between 0 and 14 as explained below:
-0 to Exit
-1 to  add a client
-2 to  add a product
-3 to  print wishlist for a client
-4 to  print invoices for a client
-5 to  add product to a clients wishlist 
-6 to  process a client order 
-7 to  add a client payment 
-8 to  add stock to a product 
-9 to  print waitlist for a product 
-10 to  print client list
-11 to  print products list
-13 to  save data
-12 to  retrieve
-14 for help
-Please enter the command:14 for help
-10
-Client{First Name:'C1', Last Name:'C1LastName', Email:'C1@gmail.com', Client ID:'C1', Address:'123 23rd Rd Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
-Client{First Name:'C2', Last Name:'C2LN', Email:'C2@gmail.com', Client ID:'C2', Address:'123 abc lane Sartell, MN', Phone Number:'0987654321', Balance:'0.0'}
-Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'12th Ave St.Cloud, MN', Phone Number:'3212938877', Balance:'0.0'}
-Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'213 39th Ave Minnetonka, MN', Phone Number:'2938473838', Balance:'0.0'}
-Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'493 8th Ln Avon, MN', Phone Number:'4847578844', Balance:'0.0'}
+3927489988
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'234 4th Ave Minneapolis, MN', Phone Number:'3927489988', Balance:'0.0'}
 Please enter the command:14 for help
 14
 Enter a number between 0 and 14 as explained below:
@@ -142,46 +107,46 @@ Please enter the command:14 for help
 Please enter the product's name:
 P1
 Please enter the product's price:
-2.  10
+5
 Please enter the prodcut's quantity:
-25
-Product{Product ID: 'P1', Name: 'P1', Sale Price: $10.00, Quantity in Stock: 25}
+100
+Product{Product ID: 'P1', Name: 'P1', Sale Price: $5.00, Quantity in Stock: 100}
 Would you like to add another product? (Y or y) for yes or anything else for no
 y
 Please enter the product's name:
 P2
 Please enter the product's price:
-5
+15
 Please enter the prodcut's quantity:
-50
-Product{Product ID: 'P2', Name: 'P2', Sale Price: $5.00, Quantity in Stock: 50}
+100 5
+Product{Product ID: 'P3', Name: 'P2', Sale Price: $15.00, Quantity in Stock: 105}
 Would you like to add another product? (Y or y) for yes or anything else for no
 y
 Please enter the product's name:
 P3
 Please enter the product's price:
-3
+20
 Please enter the prodcut's quantity:
-10
-Product{Product ID: 'P3', Name: 'P3', Sale Price: $3.00, Quantity in Stock: 10}
+250
+Product{Product ID: 'P5', Name: 'P3', Sale Price: $20.00, Quantity in Stock: 250}
 Would you like to add another product? (Y or y) for yes or anything else for no
 y
 Please enter the product's name:
 P4
 Please enter the product's price:
-4
+10
 Please enter the prodcut's quantity:
-75
-Product{Product ID: 'P4', Name: 'P4', Sale Price: $4.00, Quantity in Stock: 75}
+150
+Product{Product ID: 'P7', Name: 'P4', Sale Price: $10.00, Quantity in Stock: 150}
 Would you like to add another product? (Y or y) for yes or anything else for no
 y
 Please enter the product's name:
 P5
 Please enter the product's price:
-15
+2
 Please enter the prodcut's quantity:
-30
-Product{Product ID: 'P5', Name: 'P5', Sale Price: $15.00, Quantity in Stock: 30}
+300
+Product{Product ID: 'P9', Name: 'P5', Sale Price: $2.00, Quantity in Stock: 300}
 Would you like to add another product? (Y or y) for yes or anything else for no
 n
 Please enter the command:14 for help
@@ -203,26 +168,378 @@ Enter a number between 0 and 14 as explained below:
 12 to  retrieve
 14 for help
 Please enter the command:14 for help
-11
-Product{Product ID: 'P1', Name: 'P1', Sale Price: $10.00, Quantity in Stock: 25}
-Product{Product ID: 'P2', Name: 'P2', Sale Price: $5.00, Quantity in Stock: 50}
-Product{Product ID: 'P3', Name: 'P3', Sale Price: $3.00, Quantity in Stock: 10}
-Product{Product ID: 'P4', Name: 'P4', Sale Price: $4.00, Quantity in Stock: 75}
-Product{Product ID: 'P5', Name: 'P5', Sale Price: $15.00, Quantity in Stock: 30}
+5
+Please enter the client's ID:
+1
+Please enter the product's Id:
+1
+Please enter the quantity you want to add to the wishlist:
+5
+The product: P1 Product quantity: 5
 Please enter the command:14 for help
 5
 Please enter the client's ID:
 1
 Please enter the product's Id:
-P1
-Exception in thread "main" java.lang.NumberFormatException: For input string: "P1"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at UserInterface.addToWishlist(UserInterface.java:137)
-	at UserInterface.process(UserInterface.java:253)
-	at UserInterface.main(UserInterface.java:286)
-[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ exit
+3 5
+Please enter the quantity you want to add to the wishlist:
+5
+The product: P3 Product quantity: 5
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+1
+Please enter the product's Id:
+9
+Please enter the quantity you want to add to the wishlist:
+5
+The product: P5 Product quantity: 5
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+2
+Please enter the product's Id:
+1
+Please enter the quantity you want to add to the wishlist:
+6
+The product: P1 Product quantity: 6
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+2
+Please enter the product's Id:
+3
+Please enter the quantity you want to add to the wishlist:
+6
+The product: P2 Product quantity: 6
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+2
+Please enter the product's Id:
+7
+Please enter the quantity you want to add to the wishlist:
+6
+The product: P4 Product quantity: 6
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+3
+Please enter the client's ID:
+1
+The product: P1 Product quantity: 5
+The product: P3 Product quantity: 5
+The product: P5 Product quantity: 5
+Please enter the command:14 for help
+3
+Please enter the client's ID:
+2
+The product: P1 Product quantity: 6
+The product: P2 Product quantity: 6
+The product: P4 Product quantity: 6
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+3
+Please enter the product's Id:
+1
+Please enter the quantity you want to add to the wishlist:
+7
+The product: P1 Product quantity: 7
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+3
+Please enter the product's Id:
+3
+Please enter the quantity you want to add to the wishlist:
+7
+The product: P2 Product quantity: 7
+Please enter the command:14 for help
+5
+Please enter the client's ID:
+3
+Please enter the product's Id:
+9
+Please enter the quantity you want to add to the wishlist:
+7
+The product: P5 Product quantity: 7
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+3
+Please enter the client's ID:
+3
+The product: P1 Product quantity: 7
+The product: P2 Product quantity: 7
+The product: P5 Product quantity: 7
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+6
+Please enter client's ID:
+2
+The product: P1 Product quantity: 6
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+The product: P2 Product quantity: 6
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+The product: P4 Product quantity: 6
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 6 Price: 30.0
+Product: P2 Quantity: 6 Price: 90.0
+Product: P4 Quantity: 6 Price: 60.0
+Total Price: 180.00
+Please enter the command:14 for help
+10
+Client{First Name:'C1', Last Name:'C1LN', Email:'C1@gmail.com', Client ID:'C1', Address:'123 abc Rd Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@outlook.com', Client ID:'C2', Address:'321 4th St Avon, MN', Phone Number:'0987654321', Balance:'-180.0'}
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'387 5th Ave St.Cloud, MN', Phone Number:'3238578899', Balance:'0.0'}
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'129 6th HWY Avon, MN', Phone Number:'3284954789', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'234 4th Ave Minneapolis, MN', Phone Number:'3927489988', Balance:'0.0'}
+Please enter the command:14 for help
+6
+Please enter client's ID:
+3
+The product: P1 Product quantity: 7
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+The product: P2 Product quantity: 7
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+The product: P5 Product quantity: 7
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 7 Price: 35.0
+Product: P2 Quantity: 7 Price: 105.0
+Product: P5 Quantity: 7 Price: 14.0
+Total Price: 154.00
+Please enter the command:14 for help
+y 10
+Client{First Name:'C1', Last Name:'C1LN', Email:'C1@gmail.com', Client ID:'C1', Address:'123 abc Rd Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@outlook.com', Client ID:'C2', Address:'321 4th St Avon, MN', Phone Number:'0987654321', Balance:'-180.0'}
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'387 5th Ave St.Cloud, MN', Phone Number:'3238578899', Balance:'-154.0'}
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'129 6th HWY Avon, MN', Phone Number:'3284954789', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'234 4th Ave Minneapolis, MN', Phone Number:'3927489988', Balance:'0.0'}
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+3
+Please enter the client's ID:
+2
+Please enter the command:14 for help
+3
+Please enter the client's ID:
+3
+Please enter the command:14 for help
+9
+Pleasde enter the product ID:
+1
+Please enter the command:14 for help
+9
+Pleasde enter the product ID:
+3
+Please enter the command:14 for help
+6
+Please enter client's ID:
+1
+The product: P1 Product quantity: 5
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+The product: P3 Product quantity: 5
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+The product: P5 Product quantity: 5
+Add Item to Order as is? (Y or y) for yes or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 5 Price: 25.0
+Product: P3 Quantity: 5 Price: 100.0
+Product: P5 Quantity: 5 Price: 10.0
+Total Price: 135.00
+Please enter the command:14 for help
+10
+Client{First Name:'C1', Last Name:'C1LN', Email:'C1@gmail.com', Client ID:'C1', Address:'123 abc Rd Avon, MN', Phone Number:'1234567890', Balance:'-135.0'}
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@outlook.com', Client ID:'C2', Address:'321 4th St Avon, MN', Phone Number:'0987654321', Balance:'-180.0'}
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'387 5th Ave St.Cloud, MN', Phone Number:'3238578899', Balance:'-154.0'}
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'129 6th HWY Avon, MN', Phone Number:'3284954789', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'234 4th Ave Minneapolis, MN', Phone Number:'3927489988', Balance:'0.0'}
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+3
+Please enter the client's ID:
+1
+Please enter the command:14 for help
+7
+Please enter client's ID:
+1
+Please enter paymet amount for client:
+100
+Client{First Name:'C1', Last Name:'C1LN', Email:'C1@gmail.com', Client ID:'C1', Address:'123 abc Rd Avon, MN', Phone Number:'1234567890', Balance:'-35.0'}
+Please enter the command:14 for help
+7
+Please enter client's ID:
+2
+Please enter paymet amount for client:
+100
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@outlook.com', Client ID:'C2', Address:'321 4th St Avon, MN', Phone Number:'0987654321', Balance:'-80.0'}
+Please enter the command:14 for help
+10
+Client{First Name:'C1', Last Name:'C1LN', Email:'C1@gmail.com', Client ID:'C1', Address:'123 abc Rd Avon, MN', Phone Number:'1234567890', Balance:'-35.0'}
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@outlook.com', Client ID:'C2', Address:'321 4th St Avon, MN', Phone Number:'0987654321', Balance:'-80.0'}
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'387 5th Ave St.Cloud, MN', Phone Number:'3238578899', Balance:'-154.0'}
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'129 6th HWY Avon, MN', Phone Number:'3284954789', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'234 4th Ave Minneapolis, MN', Phone Number:'3927489988', Balance:'0.0'}
+Please enter the command:14 for help
+3
+Please enter the client's ID:
+1
+Please enter the command:14 for help
+14
+Enter a number between 0 and 14 as explained below:
+0 to Exit
+1 to  add a client
+2 to  add a product
+3 to  print wishlist for a client
+4 to  print invoices for a client
+5 to  add product to a clients wishlist 
+6 to  process a client order 
+7 to  add a client payment 
+8 to  add stock to a product 
+9 to  print waitlist for a product 
+10 to  print client list
+11 to  print products list
+13 to  save data
+12 to  retrieve
+14 for help
+Please enter the command:14 for help
+8
+Please enter product ID:
+1
+Please enter the amount of stock to add:
+100
+Product{Product ID: 'P1', Name: 'P1', Sale Price: $5.00, Quantity in Stock: 182}
+Please enter the command:14 for help
+11
+Product{Product ID: 'P1', Name: 'P1', Sale Price: $5.00, Quantity in Stock: 182}
+Product{Product ID: 'P3', Name: 'P2', Sale Price: $15.00, Quantity in Stock: 92}
+Product{Product ID: 'P5', Name: 'P3', Sale Price: $20.00, Quantity in Stock: 245}
+Product{Product ID: 'P7', Name: 'P4', Sale Price: $10.00, Quantity in Stock: 144}
+Product{Product ID: 'P9', Name: 'P5', Sale Price: $2.00, Quantity in Stock: 288}
+Please enter the command:14 for help
+10
+Client{First Name:'C1', Last Name:'C1LN', Email:'C1@gmail.com', Client ID:'C1', Address:'123 abc Rd Avon, MN', Phone Number:'1234567890', Balance:'-35.0'}
+Client{First Name:'C2', Last Name:'C2LN', Email:'C2@outlook.com', Client ID:'C2', Address:'321 4th St Avon, MN', Phone Number:'0987654321', Balance:'-80.0'}
+Client{First Name:'C3', Last Name:'C3LN', Email:'C3@gmail.com', Client ID:'C3', Address:'387 5th Ave St.Cloud, MN', Phone Number:'3238578899', Balance:'-154.0'}
+Client{First Name:'C4', Last Name:'C4LN', Email:'C4@gmail.com', Client ID:'C4', Address:'129 6th HWY Avon, MN', Phone Number:'3284954789', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5LN', Email:'C5@gmail.com', Client ID:'C5', Address:'234 4th Ave Minneapolis, MN', Phone Number:'3927489988', Balance:'0.0'}
+Please enter the command:14 for help
+4
+Please enter client's ID: 
+1
+Printing Invoices
+Client Invoice: 
+Product: P1 Quantity: 5 Price: 25.0
+Product: P3 Quantity: 5 Price: 100.0
+Product: P5 Quantity: 5 Price: 10.0
+Total Price: 135.00
+Please enter the command:14 for help
+4
+Please enter client's ID: 
+2
+Printing Invoices
+Client Invoice: 
+Product: P1 Quantity: 6 Price: 30.0
+Product: P2 Quantity: 6 Price: 90.0
+Product: P4 Quantity: 6 Price: 60.0
+Total Price: 180.00
+Please enter the command:14 for help
+^C[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project1final-abby-973/WarehouseAssignmentGroup [0;36m([1;31mmain[0;36m) [0m$ exit
 exit
 
-Script done on 2024-10-29 20:04:38+00:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2024-10-30 15:27:35+00:00 [COMMAND_EXIT_CODE="130"]

@@ -35,8 +35,7 @@ public class ProductList implements Serializable{
         String findID = "P" + pID;
         for (int i=0; i < products.size(); i++)
         {
-            System.out.println(products.get(i).getProductID() +" & "+findID);
-            if (products.get(i).getProductID() == findID)
+            if (products.get(i).getProductID().equals(findID))
             {
                 return products.get(i);
             }

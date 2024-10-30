@@ -102,7 +102,6 @@ public class UserInterface {
     String FirstName = getToken("Please enter the client's first name:");
     String LastName = getToken("Please enter the client's last name:");
     String Email = getToken("Please enter the clients email:");
-    String ClientID = getToken("Please enter the clients ID:");
     String Address = getToken("Please enter the client's address:");
     String PhoneNumber = getToken("Please enter the client's phone number:");
     Client result;
